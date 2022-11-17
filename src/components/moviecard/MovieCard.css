@@ -1,0 +1,15 @@
+.card-container img {
+  border: 1px solid grey;
+  border-radius: 10px;
+  cursor: pointer;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translatez(0);
+  transition: transform 0.25s ease-out;
+}
+
+.card-container img:hover {
+  transform: scale(1.05);
+  filter: saturate(90%);
+  box-shadow: 10px 10px 10px 10px #050100, -10px -10px 10px 10px #050100;
+}

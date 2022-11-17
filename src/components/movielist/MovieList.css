@@ -1,0 +1,15 @@
+.main {
+  padding: 100px 30px;
+  background-color: #323639;
+}
+.section {
+  margin: auto;
+  max-width: 1200px;
+}
+.movie-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 300px));
+  grid-gap: 30px 80px;
+  justify-content: center;
+  align-items: center;
+}

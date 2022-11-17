@@ -1,0 +1,14 @@
+<div className="container-fluid movie-app">
+            
+            <hr />
+            {/* <div className="row d-flex align-items-center mt-4 mb-4">
+                <Header heading="favourites" />
+            </div>
+            <div className="row">
+                <MovieList
+                    movies={favourites}
+                    handleFavourites={RemoveFavouriteMovie}
+                    favouriteComponentIcon={RemoveFavouriteIcon}
+                />
+            </div> */}
+        </div>

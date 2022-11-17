@@ -1,0 +1,22 @@
+.sticky_top {
+  background-color: rgb(0, 0, 0);
+  background-image: linear-gradient(
+    to bottom,
+    rgba(112, 44, 249, 1),
+    rgba(112, 44, 249, 0.95)
+  );
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+}
+.brand_logo {
+  cursor: pointer;
+}
+.navbar-brand {
+  color: white !important;
+}
+.navbar-brand:hover {
+  color: rgb(0, 0, 0) !important;
+}
+.bi-person-fill {
+  cursor: pointer;
+}
