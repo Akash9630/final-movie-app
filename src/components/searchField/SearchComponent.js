@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-// import "./SearchComponentStyles.css";
+import "./SearchComponentStyles.css";
 import AddFavouriteIcon from "./components/AddFavouriteIcon";
 import MovieList from "./components/MovieList";
 // import RemoveFavouriteIcon from "./components/RemoveFavouriteIcon";
@@ -56,11 +56,12 @@ function SearchComponent() {
     return (
         <div>
             <HeaderComponent searchValue={searchValue} setSearchValue={setSearchValue} />
-            <div className="row">
+            <div className="row-x">
                 <MovieList
                     movies={movies}
                     handleFavourites={AddFavouriteMovie}
-                    favouriteComponentIcon={AddFavouriteIcon} />
+                    favouriteComponentIcon={AddFavouriteIcon}
+                />
             </div>
         </div>
     );

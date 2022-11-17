@@ -1,20 +1,27 @@
 const MovieList = (props) => {
-    const FavouriteComponent = props.favouriteComponentIcon
+    // const FavouriteComponent = props.favouriteComponentIcon
     return (
-        <>
-            {
-                props.movies.map((movie) => (
-                    <div className="image-container d-flex justify-content-start" key={movie.id}>
-                        <img src={movie.Poster} alt="not found" />
-                        <div
+        <div className="main-container-movie-gallery">
+            <div className="gallery-wrapper">
+                < div className="gallery-image-wrapper" >
+                    {
+                        props.movies.map((movie, index) => (
+                            <span className="movie-card" key={index}>
+                                <div className="gallery-image"><img src={movie.Poster} alt="not found" /></div>
+                                {/* <div
                             onClick={() => props.handleFavourites(movie)}
-                            className="overlay d-flex align-items-center justify-content-center"
-                        >< FavouriteComponent />
-                        </div>
-                    </div>
-                ))
-            }
-        </>
+                            className="favourite-button"
+                        >
+                            < FavouriteComponent />
+                        </div> */}
+                            </span>
+                        ))
+                    }
+                </div>
+            </div >
+        </div>
     )
 }
 export default MovieList
+
+    // < div className = "gallery-image" > </div >
