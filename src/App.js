@@ -9,7 +9,7 @@ import SearchComponent from './components/searchField/SearchComponent';
 import "bootstrap/dist/css/bootstrap.min.css";
 import LoginForm from './components/form/LogIn';
 import SignupForm from './components/form/SignUp';
-
+import "./App.css"
 
 
 const store = createStore(
